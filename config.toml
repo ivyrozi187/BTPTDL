@@ -1,9 +1,0 @@
-[server]
-# Dòng này buộc Streamlit chạy trên cổng 8501, thường không phải là nguyên nhân gây lỗi, 
-# nhưng là cấu hình chuẩn.
-port = 8501
-
-[global]
-# THÊM DÒNG NÀY: Dùng một thư mục tạm thời cho cache của pip
-# Điều này giúp pip không gặp lỗi Permission Denied
-index = "https://pypi.org/simple/"
